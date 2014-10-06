@@ -209,6 +209,7 @@ def main():
         url = dict(required=True),
         dest = dict(required=True),
         sha256sum = dict(default=''),
+        checksum = dict(default=''),
         timeout = dict(required=False, type='int', default=10),
     )
 
